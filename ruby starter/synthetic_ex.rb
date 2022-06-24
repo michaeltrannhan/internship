@@ -13,7 +13,7 @@ class Person
   end
 
   def setAge(age)
-    raise ArgumentError, "u r too old to work" if (age > 100)
+    raise ArgumentError, "u r too old to work-ty" if (age > 100)
     @age = age
   end
 
